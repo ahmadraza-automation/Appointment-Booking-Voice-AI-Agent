@@ -1,0 +1,38 @@
+{
+  "agent_name": "Appointment Booking Assistant",
+  "platform": "Omni Dimension",
+  "agent_id": 249359,
+  "llm": "gpt-4.1-mini",
+  "temperature": 0.6,
+  "voice_provider": "eleven_labs",
+  "voice_name": "Madalina - Host",
+  "asr": "Soniox",
+  "languages": ["English (India)", "Hindi"],
+  "timezone": "Asia/Karachi",
+  "max_call_duration_sec": 600,
+  "background_noise": "office",
+  "background_volume": 0.15,
+  "web_search_enabled": true,
+  "web_search_engine": "DuckDuckGo",
+  "post_call": {
+    "email": {
+      "destination": "arjafri347@gmail.com",
+      "include_summary": true,
+      "include_full_conversation": true,
+      "extracted_variables": [
+        "caller_name",
+        "caller_phone",
+        "appointment_reason",
+        "preferred_slot",
+        "booking_status"
+      ]
+    },
+    "webhook": {
+      "url": "https://hook.us2.make.com/qvgb3w9e8yg56xv7bnhfruma56fb5irq",
+      "include_summary": true,
+      "include_full_conversation": true
+    }
+  },
+  "end_call_enabled": true,
+  "transfer_enabled": true
+}
