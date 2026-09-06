@@ -8,6 +8,8 @@ Professional multi-language Voice AI Agent specialized in appointment booking an
 **Voice**: ElevenLabs (Madalina - Host)  
 **ASR**: Soniox  
 
+> ✅ **Live Agent Proof**: See [`PROOF.md`](./PROOF.md) for full verification (Agent ID, live config, API snapshot).
+
 ---
 
 ## Features
@@ -93,6 +95,7 @@ Speak naturally and conversationally. Use the caller's name once known. Ask one 
 | Setting                    | Value                          |
 |---------------------------|--------------------------------|
 | Platform                  | Omni Dimension                 |
+| Agent ID                  | **249359**                     |
 | Agent Type                | Prompt-based Voice Agent       |
 | LLM                       | GPT-4.1-mini                   |
 | Temperature               | 0.6                            |
@@ -137,4 +140,4 @@ Email: arjafri347@gmail.com
 
 ---
 
-*This agent is production-ready and currently live on Omni Dimension.*
+*This agent is production-ready and currently live on Omni Dimension. Full proof available in [PROOF.md](./PROOF.md).*
