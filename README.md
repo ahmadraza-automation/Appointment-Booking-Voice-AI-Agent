@@ -12,6 +12,23 @@ Professional multi-language Voice AI Agent specialized in appointment booking an
 
 ---
 
+## 🎥 Demo Video
+
+**Full walkthrough of the live agent** (Omni Dimension dashboard → config → live test call → booking confirmation).
+
+The demo shows:
+- Agent selection in Omni Dimension
+- Prompt configuration (name, phone, booking flow)
+- Voice: **Madalina** selected
+- Languages: **English + Hindi** enabled
+- Post-call automation: Email + Webhook both ON
+- Live Test Call: Caller "Riya Sharma" books an appointment successfully
+- Final call outcome: **Booked** + Email/Webhook sent
+
+> Video file: `demo-video.mp4` (compressed ~1 MB, 61 seconds) — upload it to this repo root if not already present, then it will appear here as a playable file.
+
+---
+
 ## Features
 
 - Natural, human-like conversation flow
